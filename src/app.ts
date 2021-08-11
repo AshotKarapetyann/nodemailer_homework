@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 import cron from "node-cron";
 import dotenv from "dotenv";
 
-dotenv.config()
+dotenv.config();
 
 const transporter = nodemailer.createTransport({
     service:"gmail",
